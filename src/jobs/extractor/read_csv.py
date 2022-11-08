@@ -3,7 +3,7 @@ from genpipes import declare
 
 
 @declare.datasource()
-def read_csv_files(files: list) -> pd.Dataframe:
+def read_csv_files(files: list) -> pd.DataFrame:
     """
 
     :param files:

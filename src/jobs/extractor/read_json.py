@@ -13,7 +13,7 @@ def read_json_files(files: list) -> pd.DataFrame:
     df = pd.concat(
         (
             pd.DataFrame(loads_json(
-                f['file']
+                f['read_json']['filepath_or_buffer']
             ))
             .assign(type=f['filename'])
             .rename(columns=f['columns_to_rename'])
