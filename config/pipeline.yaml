@@ -21,7 +21,7 @@
       columns_to_rename:
         scientific_title: title
       read_csv:
-        filepath: data/input/clinical_trials.csv
+        filepath_or_buffer: data/input/clinical_trials.csv
         encoding: utf-8
 
     # -- Ingestion of pubmed.csv
@@ -31,7 +31,7 @@
       columns_to_rename:
         {}
       read_csv:
-        filepath: data/input/pubmed.csv
+        filepath_or_buffer: data/input/pubmed.csv
         encoding: utf-8
 
 
@@ -43,20 +43,32 @@
       columns_to_rename:
         {}
       read_json:
-        filepath: data/input/pubmed.json
-        encoding: utf-8
+        filepath_or_buffer: data/input/pubmed.json
+        encoding: "utf-8"
+
+  filepath: src.jobs.generator.merge_files
 
 # ------------------ Step 2 ------------------ #
+# Step 2: Search for drugs appearences in the merged data
 
-- step_name: find_drugs_appearances
+- step-name: find_drugs_appearances
 
-  # --  Ingestion of drugs.csv
-  drugs_file:
+  drugs:
     - name: drugs
-      columns_to_rename: {}
+      columns_to_rename:
+        {}
       read_csv:
-        filepath: data/input/drugs.csv
+        filepath_or_buffer: data/input/drugs.csv
         encoding: utf-8
 
+  filepath: src.jobs.processor.find_drugs_appearances
 
-#
+
+# ------------------ Step 3 ------------------ #
+# Step 3: Create json ouput
+
+- step-name: create_json
+
+  output_name: data/output/output.json
+
+  filepath: src.jobs.processor.create_json
