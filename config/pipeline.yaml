@@ -1,0 +1,62 @@
+# In the configuration file, you can :
+# - define the pipeline by assembling several python jobs called "steps"
+# - provide the parameters of the pipeline for each step
+#
+#
+
+# ------------------ Step 1 ------------------ #
+# Step 1: Merge the data
+
+# The name of the step corresponds to the name of the python job to be executed.
+# Here, the job is called "Merge_files.py"
+- step-name: merge_files
+
+  # - The list of csv files to be merged
+  csv_files:
+
+    # -- Ingestion of clinical_trials.csv
+    - filename: clinical_trials.csv
+
+
+      columns_to_rename:
+        scientific_title: title
+      read_csv:
+        filepath: data/input/clinical_trials.csv
+        encoding: utf-8
+
+    # -- Ingestion of pubmed.csv
+    - filename: pubmed.csv
+
+
+      columns_to_rename:
+        {}
+      read_csv:
+        filepath: data/input/pubmed.csv
+        encoding: utf-8
+
+
+  json_files:
+    # -- Ingestion of pubmed.json
+    - filename: pubmed.json
+
+
+      columns_to_rename:
+        {}
+      read_json:
+        filepath: data/input/pubmed.json
+        encoding: utf-8
+
+# ------------------ Step 2 ------------------ #
+
+- step_name: find_drugs_appearances
+
+  # --  Ingestion of drugs.csv
+  drugs_file:
+    - name: drugs
+      columns_to_rename: {}
+      read_csv:
+        filepath: data/input/drugs.csv
+        encoding: utf-8
+
+
+#
