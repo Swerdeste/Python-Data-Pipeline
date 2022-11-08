@@ -7,6 +7,7 @@ from src.jobs.extractor.read_csv import read_csv_files
 @declare.processor()
 def find_drugs_appearances(
         stream: Iterable[pd.DataFrame],
+        read_csv_files: Callable,
         drugs_files: list[dict]
 ):
     """
