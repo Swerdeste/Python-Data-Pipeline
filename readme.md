@@ -2,7 +2,11 @@
 
 ## Présentation
 
+Dans ce projet, nous allons créer un pipeline de données en utilisant Python.
 
+## Réponses aux questions
+
+Les réponses aux questions se trouvent dans le dossier doc. Pour la première partie sur la pipeline : 'doc/Partie_1_Pipeline.pdf' et pour la deuxième partie sur les requêtes SQL : 'doc/Partie_2_SQL.pdf'.
 
 ## Installation
 

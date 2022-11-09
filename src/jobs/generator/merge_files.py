@@ -13,15 +13,26 @@ def merge_files(
         json_files: list
 ) -> pd.DataFrame:
     """
-    :param read_csv_files:
-    :param read_json_files:
-    :param csv_files:
-    :param json_files:
-    :return:
+    Merge csv and json files
+
+    This function merges csv and json files into a single dataframe.
+
+    :param read_csv_files: Callable
+        Function to read csv files from extractor module
+    :param read_json_files: Callable
+        Function to read json files from extractor module
+    :param csv_files: list of dict
+        Configuration of csv files to read
+    :param json_files: list of dict
+        Configuration of json files to read
+
+    :return: df: pd.DataFrame
+        Merged dataframe
     """
 
     csv_df = read_csv_files(files=csv_files)
     json_df = read_json_files(files=json_files)
 
-    df = pd.concat([csv_df, json_df])
+    df = pd.concat([csv_df, json_df])  # Concatenate dataframes
+
     return df

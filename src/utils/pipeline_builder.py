@@ -5,11 +5,41 @@ import inspect
 
 
 class PipelineBuilder:
+    """
+    A class used to build and run a pipeline using genpipes
+
+    Attributes
+    ----------
+    steps : list(tuple)
+        List of steps to run
+    pipe : genpipes.compose.Pipeline
+        The pipeline
+
+    Methods
+    -------
+    build(config_path)
+        Build the pipeline from a config file
+    run()
+        Run the pipeline
+
+    """
 
     def __init__(self):
-        self.pipe = None
-        self.steps = []
+        """
+        Constructor
+        """
+        self.pipe = None # Initialize the pipeline
+        self.steps = [] # Initialize the steps list
+
     def build(self, config_path):
+        """
+        Build the pipeline from a config file
+
+        :param config_path: str
+            Path to the config file
+            Config file are commonly in yaml format
+        :return:
+        """
         with open(config_path) as f:
             steps = yaml.safe_load(f)
         for step in steps:
@@ -34,5 +64,9 @@ class PipelineBuilder:
         return compose.Pipeline(step)
 
     def run(self):
+        """
+        Run the pipeline
+        """
+
         data = self.pipe.run()
         return data

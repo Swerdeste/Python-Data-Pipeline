@@ -1,1 +1,170 @@
-{"diphenhydramine": {"clinical_trials": [{"date": "01/01/2020", "title": "use of diphenhydramine as an adjunctive sedative for colonoscopy in patients chronically on opioids", "journal": "journal of emergency nursing"}, {"date": "01/01/2020", "title": "phase 2 study iv quzyttir\u2122 (cetirizine hydrochloride injection) vs v diphenhydramine", "journal": "journal of emergency nursing"}, {"date": "01/01/2020", "title": "feasibility of a randomized controlled clinical trial comparing the use of cetirizine to replace diphenhydramine in the prevention of reactions related to paclitaxel", "journal": "journal of emergency nursing"}], "pubmed": [{"date": "01/01/2019", "title": "a 44-year-old man with erythema of the face diphenhydramine, neck, and chest, weakness, and palpitations", "journal": "journal of emergency nursing"}, {"date": "01/01/2019", "title": "an evaluation of benadryl, pyribenzamine, and other so-called diphenhydramine antihistaminic drugs in the treatment of allergy.", "journal": "journal of emergency nursing"}, {"date": "01/02/2019", "title": "diphenhydramine hydrochloride helps symptoms of ciguatera fish poisoning.", "journal": "the journal of pediatrics"}]}, "tetracycline": {"pubmed": [{"date": "01/01/2020", "title": "tetracycline resistance patterns of lactobacillus buchneri group strains.", "journal": "journal of food protection"}, {"date": "01/02/2020", "title": "appositional tetracycline bone formation rates in the beagle.", "journal": "american journal of veterinary research"}, {"date": "01/01/2020", "title": "rapid reacquisition of contextual fear following extinction in mice: effects of amount of extinction, tetracycline acute ethanol withdrawal, and ethanol intoxication.", "journal": "psychopharmacology"}]}, "ethanol": {"pubmed": [{"date": "01/01/2020", "title": "rapid reacquisition of contextual fear following extinction in mice: effects of amount of extinction, tetracycline acute ethanol withdrawal, and ethanol intoxication.", "journal": "psychopharmacology"}]}, "atropine": {"pubmed": [{"date": "03/01/2020", "title": "comparison of pressure betamethasone release, phonophoresis and dry needling in treatment of latent myofascial trigger point of upper trapezius atropine muscle.", "journal": "the journal of maternal-fetal & neonatal medicine"}]}, "epinephrine": {"clinical_trials": [{"date": "27/04/2020", "title": "tranexamic acid versus epinephrine during exploratory tympanotomy", "journal": "journal of emergency nursing\\xc3\\x28"}], "pubmed": [{"date": "02/01/2020", "title": "the high cost of epinephrine autoinjectors and possible alternatives.", "journal": "the journal of allergy and clinical immunology. in practice"}, {"date": "03/01/2020", "title": "time to epinephrine treatment is associated with the risk of mortality in children who achieve sustained rosc after traumatic out-of-hospital cardiac arrest.", "journal": "the journal of allergy and clinical immunology. in practice"}]}, "isoprenaline": {"pubmed": [{"date": "01/01/2020", "title": "gold nanoparticles synthesized from euphorbia fischeriana root by green route method alleviates the isoprenaline hydrochloride induced myocardial infarction in rats.", "journal": "journal of photochemistry and photobiology. b, biology"}]}, "betamethasone": {"clinical_trials": [{"date": "01/01/2020", "title": "preemptive infiltration with betamethasone and ropivacaine for postoperative pain in laminoplasty or \\xc3\\xb1 laminectomy", "journal": "h\u00f4pitaux universitaires de gen\u00e8ve"}], "pubmed": [{"date": "01/01/2020", "title": "clinical implications of umbilical artery doppler changes after betamethasone administration", "journal": "the journal of maternal-fetal & neonatal medicine"}, {"date": "01/01/2020", "title": "effects of topical application of betamethasone on imiquimod-induced psoriasis-like skin inflammation in mice.", "journal": "journal of back and musculoskeletal rehabilitation"}, {"date": "03/01/2020", "title": "comparison of pressure betamethasone release, phonophoresis and dry needling in treatment of latent myofascial trigger point of upper trapezius atropine muscle.", "journal": "the journal of maternal-fetal & neonatal medicine"}]}}
+[
+  {
+    "drug": "ATROPINE",
+    "mentions": [
+      {
+        "date": "2020-03-01",
+        "id": 4,
+        "journal": "The journal of maternal-fetal & neonatal medicine",
+        "title": "Comparison of pressure BETAMETHASONE release, phonophoresis and dry needling in treatment of latent myofascial trigger point of upper trapezius ATROPINE muscle.",
+        "type": "pubmed"
+      }
+    ]
+  },
+  {
+    "drug": "BETAMETHASONE",
+    "mentions": [
+      {
+        "date": "2020-01-01",
+        "id": 4,
+        "journal": "Hôpitaux Universitaires de Genève",
+        "title": "Preemptive Infiltration With Betamethasone and Ropivacaine for Postoperative Pain in Laminoplasty or \\xc3\\xb1 Laminectomy",
+        "type": "clinical_trials"
+      },
+      {
+        "date": "2020-01-01",
+        "id": 1,
+        "journal": "The journal of maternal-fetal & neonatal medicine",
+        "title": "Clinical implications of umbilical artery Doppler changes after betamethasone administration",
+        "type": "pubmed"
+      },
+      {
+        "date": "2020-01-01",
+        "id": 2,
+        "journal": "Journal of back and musculoskeletal rehabilitation",
+        "title": "Effects of Topical Application of Betamethasone on Imiquimod-induced Psoriasis-like Skin Inflammation in Mice.",
+        "type": "pubmed"
+      },
+      {
+        "date": "2020-03-01",
+        "id": 4,
+        "journal": "The journal of maternal-fetal & neonatal medicine",
+        "title": "Comparison of pressure BETAMETHASONE release, phonophoresis and dry needling in treatment of latent myofascial trigger point of upper trapezius ATROPINE muscle.",
+        "type": "pubmed"
+      }
+    ]
+  },
+  {
+    "drug": "DIPHENHYDRAMINE",
+    "mentions": [
+      {
+        "date": "2020-01-01",
+        "id": 0,
+        "journal": "Journal of emergency nursing",
+        "title": "Use of Diphenhydramine as an Adjunctive Sedative for Colonoscopy in Patients Chronically on Opioids",
+        "type": "clinical_trials"
+      },
+      {
+        "date": "2020-01-01",
+        "id": 1,
+        "journal": "Journal of emergency nursing",
+        "title": "Phase 2 Study IV QUZYTTIR™ (Cetirizine Hydrochloride Injection) vs V Diphenhydramine",
+        "type": "clinical_trials"
+      },
+      {
+        "date": "2020-01-01",
+        "id": 3,
+        "journal": "Journal of emergency nursing",
+        "title": "Feasibility of a Randomized Controlled Clinical Trial Comparing the Use of Cetirizine to Replace Diphenhydramine in the Prevention of Reactions Related to Paclitaxel",
+        "type": "clinical_trials"
+      },
+      {
+        "date": "2019-01-01",
+        "id": 0,
+        "journal": "Journal of emergency nursing",
+        "title": "A 44-year-old man with erythema of the face diphenhydramine, neck, and chest, weakness, and palpitations",
+        "type": "pubmed"
+      },
+      {
+        "date": "2019-01-01",
+        "id": 1,
+        "journal": "Journal of emergency nursing",
+        "title": "An evaluation of benadryl, pyribenzamine, and other so-called diphenhydramine antihistaminic drugs in the treatment of allergy.",
+        "type": "pubmed"
+      },
+      {
+        "date": "2019-01-02",
+        "id": 2,
+        "journal": "The Journal of pediatrics",
+        "title": "Diphenhydramine hydrochloride helps symptoms of ciguatera fish poisoning.",
+        "type": "pubmed"
+      }
+    ]
+  },
+  {
+    "drug": "EPINEPHRINE",
+    "mentions": [
+      {
+        "date": "2020-27-04",
+        "id": 7,
+        "journal": "Journal of emergency nursing\\xc3\\x28",
+        "title": "Tranexamic Acid Versus Epinephrine During Exploratory Tympanotomy",
+        "type": "clinical_trials"
+      },
+      {
+        "date": "2020-02-01",
+        "id": 6,
+        "journal": "The journal of allergy and clinical immunology. In practice",
+        "title": "The High Cost of Epinephrine Autoinjectors and Possible Alternatives.",
+        "type": "pubmed"
+      },
+      {
+        "date": "2020-03-01",
+        "id": 7,
+        "journal": "The journal of allergy and clinical immunology. In practice",
+        "title": "Time to epinephrine treatment is associated with the risk of mortality in children who achieve sustained ROSC after traumatic out-of-hospital cardiac arrest.",
+        "type": "pubmed"
+      }
+    ]
+  },
+  {
+    "drug": "ETHANOL",
+    "mentions": [
+      {
+        "date": "2020-01-01",
+        "id": 5,
+        "journal": "Psychopharmacology",
+        "title": "Rapid reacquisition of contextual fear following extinction in mice: effects of amount of extinction, tetracycline acute ethanol withdrawal, and ethanol intoxication.",
+        "type": "pubmed"
+      }
+    ]
+  },
+  {
+    "drug": "ISOPRENALINE",
+    "mentions": [
+      {
+        "date": "2020-01-01",
+        "id": 0,
+        "journal": "Journal of photochemistry and photobiology. B, Biology",
+        "title": "Gold nanoparticles synthesized from Euphorbia fischeriana root by green route method alleviates the isoprenaline hydrochloride induced myocardial infarction in rats.",
+        "type": "pubmed"
+      }
+    ]
+  },
+  {
+    "drug": "TETRACYCLINE",
+    "mentions": [
+      {
+        "date": "2020-01-01",
+        "id": 3,
+        "journal": "Journal of food protection",
+        "title": "Tetracycline Resistance Patterns of Lactobacillus buchneri Group Strains.",
+        "type": "pubmed"
+      },
+      {
+        "date": "2020-01-02",
+        "id": 4,
+        "journal": "American journal of veterinary research",
+        "title": "Appositional Tetracycline bone formation rates in the Beagle.",
+        "type": "pubmed"
+      },
+      {
+        "date": "2020-01-01",
+        "id": 5,
+        "journal": "Psychopharmacology",
+        "title": "Rapid reacquisition of contextual fear following extinction in mice: effects of amount of extinction, tetracycline acute ethanol withdrawal, and ethanol intoxication.",
+        "type": "pubmed"
+      }
+    ]
+  }
+]
